@@ -1,0 +1,24 @@
+.HomeContainer {
+  background-image: url(/public/assets/home/background-home-desktop.jpg);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.textContent h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.hugeHeader {
+  font-size: 10rem !important;
+  color: white !important;
+  -webkit-text-fill-color: white !important;
+  font-weight: 900 !important;
+}
+.textContent {
+  color: White;
+  width: 30rem;
+  text-align: center;
+  color: #d0d6f9;
+}

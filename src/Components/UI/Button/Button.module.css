@@ -1,0 +1,36 @@
+.NavButton {
+  background-color: transparent;
+  color: white;
+  z-index: 3;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  padding-bottom: 2rem;
+}
+.NavButton span {
+  font-weight: bolder;
+  margin-right: 0.5rem;
+}
+.NavButton:hover {
+  border-bottom: 3px solid white;
+}
+.NavButton[status="active"] {
+  border-bottom: 3px solid white;
+}
+.CircleButton {
+  width: 20rem;
+  border-radius: 100%;
+  cursor: pointer;
+  font-size: 1.5rem;
+  height: 20rem;
+  color: black;
+  border: none;
+}
+.CircleButton h1 {
+  font-weight: 500;
+}
+.CircleButton:hover {
+  box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.4);
+  border: none;
+}

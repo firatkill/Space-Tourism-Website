@@ -1,0 +1,51 @@
+.technologyTabContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+.buttons {
+  margin-bottom: 4rem;
+}
+.buttons div {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-size: 2rem;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+}
+.buttons .activeButton {
+  background-color: white;
+  color: black;
+}
+.buttons div:nth-of-type(2) {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.textContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 4rem;
+}
+.textContent h3 {
+  color: #d0d6f9;
+}
+.textContent h1 {
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+.textContent p {
+  color: #d0d6f9;
+  max-width: 70%;
+  font-size: 1.5rem;
+}

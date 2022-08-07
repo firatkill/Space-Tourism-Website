@@ -1,0 +1,21 @@
+.CrewContainer {
+  background-image: url(/public/assets/crew/background-crew-desktop.jpg);
+}
+.crewContent {
+  display: flex;
+  flex-direction: column;
+}
+.crewHeader {
+  color: white;
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+.crewHeader h3 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2.5rem;
+  margin-right: 0.5rem;
+}

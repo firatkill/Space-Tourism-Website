@@ -1,0 +1,67 @@
+.DestinationTabsContainer {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin: auto;
+  display: flex;
+
+  align-items: center;
+  justify-content: Space-between;
+  margin-top: 2rem;
+}
+.textContainer {
+  width: 40%;
+  color: white;
+  margin-top: -2rem;
+}
+.textContainer__textContent h1 {
+  font-size: 8rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.textContainer__textContent p {
+  font-size: 1.2rem;
+  color: #d0d6f9;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+.textContainer__travelInfos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.textContainer__travelInfos h5 {
+  font-size: 1rem;
+  text-align: center;
+  color: #d0d6f9;
+}
+.textContainer__travelInfos h4 {
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+.imageContainer img {
+  width: 100%;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttonContainer button {
+  background-color: transparent !important;
+  border: none;
+  color: #d0d6f9;
+  font-size: 2rem;
+  padding: 1rem;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+.buttonContainer button:hover {
+  border-bottom: 2px solid white;
+  color: white;
+}
+.buttonContainer button[status="active"] {
+  border-bottom: 2px solid white;
+}
